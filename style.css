@@ -1,0 +1,186 @@
+
+/* Corpo */
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-color: hsl(204, 43%, 93%);
+}
+
+/* Conteudo */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-family: 'Karla', sans-serif;
+    width: 700px;
+
+    flex-wrap: wrap;
+
+    box-shadow: 0 1px 10px hsl(200, 14%, 84%);
+}
+
+.monthly-whyus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Join our community */
+.join-comunit {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: hsl(218, 22%, 67%);
+    padding: 40px;
+    background-color: #fff;
+
+    border-radius: 10px 10px 0 0;
+}
+
+.h1-join {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.span-days {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+/* Monthly Subscription */
+.monthly {
+    
+    color: #fff;
+    background: hsl(179, 62%, 43%);
+   
+    padding: 30px;
+    width: 350px;
+    height: 250px;
+
+    border-radius: 0 0 0 10px;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.h2-monthly {
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 5px;
+    right: 15px;
+}
+
+.para-monthly {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    position: relative;
+    right: 50px;
+}
+
+.span-monthly {
+    font-size: 0.800rem;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.span-monthl {
+    font-size: 0.900rem;
+}
+
+.butt-montlhy {
+    border: none;
+    padding: 15px;
+    width: 220px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    background: hsl(71, 73%, 54%);
+    font-weight: 700;
+    cursor: pointer;
+
+    position: relative;
+    top: 20px;
+
+    text-align: center;
+
+    border-radius: 5px;
+    box-shadow: 0 1px 10px hsl(179, 61%, 38%);
+}
+
+.butt-montlhy:hover {
+    background: hsl(71, 59%, 42%);
+    transition: 0.6s;
+}
+
+/* Why Us */
+.why-us {
+
+    background: hsl(218, 15%, 59%);
+    padding: 30px;
+    color: #fff;
+
+    width: 350px;
+    height: 250px;
+
+    border-radius: 0 0 10px;
+}
+
+.elements-why {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+    position: relative;
+    left: 10px;
+}
+
+.para-why {
+    text-align: justify;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.h3-why {
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 2px;
+}
+
+/* Rodape */
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    font-family: 'Karla', sans-serif;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     text-decoration: none;
+    background: hsl(179, 62%, 43%);
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+ }
+
+ .attribution a:hover {
+    background: hsl(179, 63%, 34%);
+    transition: 0.6s;
+ }
